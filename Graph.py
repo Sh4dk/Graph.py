@@ -19,7 +19,6 @@ def graph1():
     plt.title('Maximum daily temperature')
     plt.show()
 window = Tk()
-photo=PhotoImage(file="F:\\Capture.png")
 button1=Button(window,
               text="Temperatur in farenheit",
               command=graph1,
